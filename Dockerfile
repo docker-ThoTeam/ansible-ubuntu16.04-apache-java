@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y \
-        apache \
+        apache2 \
         openjdk-8-jre-headless \
         python \
         sudo \
