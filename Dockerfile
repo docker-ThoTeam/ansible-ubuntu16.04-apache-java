@@ -13,5 +13,5 @@ RUN apt-get update && \
         rsync && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
-    an2enmod ssl rewrite proxy headers
+    a2enmod ssl rewrite proxy headers
 
