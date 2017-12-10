@@ -12,5 +12,6 @@ RUN apt-get update && \
         cron \
         rsync && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* && \
+    an2enmod ssl rewrite proxy headers
 
