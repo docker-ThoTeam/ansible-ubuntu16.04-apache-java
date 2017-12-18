@@ -6,6 +6,7 @@ RUN apt-get update && \
         apache2 \
         openjdk-8-jre-headless \
         python \
+        python-apt \
         sudo \
         bash \
         ca-certificates \
