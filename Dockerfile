@@ -9,7 +9,6 @@ RUN apt-get update && \
         python \
         python-apt \
         sudo \
-        bash \
         ca-certificates \
         cron \
         rsync && \
